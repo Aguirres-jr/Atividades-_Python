@@ -9,7 +9,7 @@ media_final = (nota1 + nota2 + nota3) / 3
 
 if media_final >= 7:
     print(f"Parabéns {name}, Você foi Aprovado!")
-elif media_final > 5:
+elif media_final >=5:
     print(f"Infelizmente Você reprovou {name}, mas poderá fazer recuperação!")
 else:  
     print(f"Que noticia triste {name}, Infelizmente Você foi reprovado!")
